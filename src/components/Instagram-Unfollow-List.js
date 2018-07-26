@@ -9,7 +9,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="twelve columns collapsed">
         <h2>Instagram: Unfollow List</h2>
-        <h3>It's always heartbreaking to find out when someone you follow doesn't follow you back. </h3>
+        <h3>It's always heartbreaking to find out when someone you follow doesn't follow you back 😢</h3>
         <p> 
         This idea is similar my other project: <a href="Twitter-Unfollow-List"> {" "} Twitter: Unfollow List</a>. Here's how it works: Selenium with python is used to launch a session of Instagram.
         After the login credentials are entered, the program navigates to the user's page and extracts the number of following and followers. 

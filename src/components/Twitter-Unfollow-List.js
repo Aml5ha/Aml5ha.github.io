@@ -7,7 +7,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="twelve columns collapsed">
         <h2>Twitter: Unfollow List</h2>
-        <h3>It's always heartbreaking to see who doesn't follow you back. Providing an easy way to see who to unfollow 😈</h3>
+        <h3>Providing an easy way to see who to unfollow 😈</h3>
         <p> 
         These days there is a stigma of having an imbalanced following to followers ratio. 
         This program lets you efficiently and easily see who you follow but doesnt follow you back.

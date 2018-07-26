@@ -19,6 +19,7 @@ const Portfolio = () => (
 
         <center> <b> A picture of me with the car after succesfully programming the lidar. </b></center>
 
+        <br/>
         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           <div className="overlay">
             <div className="item-wrap">
