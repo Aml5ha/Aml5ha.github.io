@@ -81,16 +81,16 @@ const Work = () => (
           <p className="info">
             Summer Camp Counselor
             <span>&bull;</span>
-            <em className="date">August 2017 - Present</em>
+            <em className="date">June 2016 - August 2016</em>
           </p>
           <p>
-            As a TA, my duty is to be available for students during office hours to answer any questions, explain concepts, and clear up any doubts. 
-            I was also responsible for a weekly studio session where students came to assess progress on their assignments. 
-            Skills I learned from this experience include but are not limited to: 
+            As a summer camp counselor at the YMCA, I was responsible for groups of children ages 6-11. 
+            Along with supervising and engaging with the children in my group, this opportunity taught me invaluable lessons about teamwork and leadership, as the children in my group never failed to surprise me.
+            Notably, I was first counselor to be awarded as the counselor of the week, get recognized the first week of camp! 
             <ul>  
-            <li>Professionalism</li> 
-            <li>Teaching/Instructing</li> 
-            <li>Deeper Analaysis of Relevant Content</li> 
+            <li>Patience</li> 
+            <li>Critical Thinking</li> 
+            <li>Teamwork</li> 
             </ul>
           </p>
         </div>
