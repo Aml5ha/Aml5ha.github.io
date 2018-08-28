@@ -148,7 +148,7 @@ const Work = () => (
             I've done this camp as a participant in 2006 and 2010 and have been directly involved as a staff member ever since I was able to in 2013. 
             This camp exposes participants ages 6-13 to higher level concepts than they would normally be exposed to at that age, 
             which in turn allow them to build their skills, express themselves, and have unique experiences. 
-            I've helped in the organization and development of this annual camp in many capacities over the years, but most recently I was a coordinator for 15 others who were all responsible for the logisitcal aspects of the camp. 
+            I've helped in the organization and development of this annual camp in many capacities over the years, but most recently I was a coordinator for 15 others who were all responsible for the logisitcal planning and execution of camp. 
             Skills I learned from this experience include but are not limited to: 
             <ul>  
             <li>Project Management</li> 
