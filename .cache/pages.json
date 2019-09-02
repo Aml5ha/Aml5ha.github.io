@@ -1,0 +1,86 @@
+[
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-autonomous-race-cars-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "autonomous-race-cars.json",
+        "path": "/Autonomous-Race-Cars/"
+    },
+    {
+        "componentChunkName": "component---src-pages-fortune-best-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "fortune-best.json",
+        "path": "/Fortune-Best/"
+    },
+    {
+        "componentChunkName": "component---src-pages-instagram-unfollow-list-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "instagram-unfollow-list.json",
+        "path": "/Instagram-Unfollow-List/"
+    },
+    {
+        "componentChunkName": "component---src-pages-sort-num-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "sort-num.json",
+        "path": "/SortNum/"
+    },
+    {
+        "componentChunkName": "component---src-pages-twitter-undo-retweets-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "twitter-undo-retweets.json",
+        "path": "/Twitter-Undo-Retweets/"
+    },
+    {
+        "componentChunkName": "component---src-pages-twitter-unfollow-list-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "twitter-unfollow-list.json",
+        "path": "/Twitter-Unfollow-List/"
+    },
+    {
+        "componentChunkName": "component---src-pages-universal-shopping-cart-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "universal-shopping-cart.json",
+        "path": "/Universal-Shopping-Cart/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-page-2-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "page-2.json",
+        "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]

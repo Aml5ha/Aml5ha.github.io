@@ -1,11 +1,16 @@
 import React from "react";
-import carmax from "../assets/images/portfolio/carmax.png";
+/*
+import carmax from "../assets/images/portfolio/carmax.png"; 
+*/
 
 
-const Work = () => (
-  <div className="row work">
+const Work = () => (      
+    <section id="work">
+
+    <div className="row work">
 
     <div className="three columns header-col">
+
       <h1>
         <span>Work Experience</span>
       </h1>
@@ -13,6 +18,26 @@ const Work = () => (
 
 
     <div className="nine columns main-col">
+
+
+    <div className="row item">
+        <div className="twelve columns">
+          <h3>Capital One </h3> 
+          <p className="info">
+            Associate Software Engineer for Network Services Team
+            <span>&bull;</span>
+            <em className="date">August 2019 - Present</em>
+          </p>
+          <p>
+            I am currently in a rotational program called the technology development program (TDP). As part of this program I have the opportunity to experience different lines of business and development areas. I also am pursuing various courses and certifications such as:   
+            <br/>
+            - CompTIA Network+ (N10-007) Certification
+            <br/>
+            - AWS Solutions Architect Associate Certification
+
+          </p>
+        </div>
+      </div>
 
       <div className="row item">
         <div className="twelve columns">
@@ -34,8 +59,8 @@ const Work = () => (
             Skills I learned from this experience include but are not limited to: 
             <ul>  
             <li>Public Speaking</li> 
-            <li>Innovation</li> 
             <li>Self Learning</li> 
+            <li>Innovation</li> 
             </ul>
           </p>
         </div>
@@ -61,9 +86,9 @@ const Work = () => (
             <br/>
             Skills I learned from this experience include but are not limited to: 
             <ul>  
-            <li>Pair Programming</li> 
-            <li>Agile Methodology</li> 
             <li>Cloud Architecture</li> 
+            <li>Agile Methodology</li> 
+            <li>Pair Programming</li> 
             </ul>
           </p>
         </div>
@@ -77,16 +102,16 @@ const Work = () => (
           <p className="info">
             Technology Services Assistant (TSA)
             <span>&bull;</span>
-            <em className="date">August 2016 - Present</em>
+            <em className="date">August 2016 - May 2019 </em>
           </p>
           <p>
             As a TSA, my reponsibility is to troubleshoot network and hardware based issues of deans and other supported areas.
             I work on a small team with 6 other TSA's, however we all work separate shifts, so this position relies heavily on effective communication.
             Skills I learned from this experience include but are not limited to: 
             <ul>  
-            <li>Communication</li> 
             <li>Precise Documentation</li> 
             <li>Customer Service</li> 
+            <li>Communication</li> 
             </ul>
           </p>
         </div>
@@ -99,16 +124,16 @@ const Work = () => (
           <p className="info">
             Undergraduate Teaching Asisstant (TA)
             <span>&bull;</span>
-            <em className="date">August 2017 - Present</em>
+            <em className="date">August 2017 - May 2019</em>
           </p>
           <p>
             As a TA, my duty is to be available for students during office hours to answer any questions, explain concepts, and clear up any doubts. 
             I was also responsible for a weekly studio session where students came to assess progress on their assignments. 
             Skills I learned from this experience include but are not limited to: 
             <ul>  
-            <li>Professionalism</li> 
-            <li>Teaching/Instructing</li> 
             <li>Deeper Analaysis of Relevant Content</li> 
+            <li>Teaching/Instructing</li> 
+            <li>Professionalism</li> 
             </ul>
           </p>
         </div>
@@ -128,9 +153,9 @@ const Work = () => (
             Notably, I was first counselor to be awarded as the counselor of the week, get recognized the first week of camp! 
             Skills I learned from this experience include but are not limited to: 
             <ul>  
-            <li>Patience</li> 
             <li>Critical Thinking</li> 
             <li>Teamwork</li> 
+            <li>Patience</li> 
             </ul>
           </p>
         </div>
@@ -138,11 +163,11 @@ const Work = () => (
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>Youth Leadership Development Camp</h3>
+          <h3>Youth Leadership Development Camp: Camp Mosaic</h3>
           <p className="info">
             Counselor and Coordinator
             <span>&bull;</span>
-            <em className="date">Summers of 2013 - Present</em>
+            <em className="date">Summers of 2013 - Summer of 2018</em>
           </p>
           <p>
             I've done this camp as a participant in 2006 and 2010 and have been directly involved as a staff member ever since I was able to in 2013. 
@@ -165,15 +190,15 @@ const Work = () => (
 
 
 
+      </div>
+
+
     </div>
 
 
-  </div>
-
 
     
-
-    
+  </section>
 );
 
 export default Work;

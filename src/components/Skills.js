@@ -8,6 +8,7 @@ export default class Skills extends React.Component {
    render () {
 
   return (
+      <section id="skills">
   <div className="row skill">
     <div className="three columns header-col">
       <h1>
@@ -16,7 +17,7 @@ export default class Skills extends React.Component {
     </div>
     <div className="nine columns main-col">
       <p>
-        With the help of my college career and two internships thus far, I have aquired various technical skills.
+        With the help of my college career, two internships, and current job at Capital One, I have aquired various technical skills.
         Though my ability to perform is not limited by the presented skills, the graphic below shows a high level overview of the technical areas I have had exposure to. 
         See also the most relevant and interesting courses that I have taken. 
       </p>
@@ -28,7 +29,7 @@ export default class Skills extends React.Component {
           </li>
           <li>
             <em><h4>Human Computer Interaction</h4> 
-            I particularly enjoyed this course as it helped me realize all of the different aspects that need to be taken into considering when designing a user interface. </em>
+            I particularly enjoyed this course as it helped me realize all of the different aspects that need to be taken into consideration when designing a user interface. </em>
           </li>
           <li>
             <em><h4>Artificial Intelligence</h4> 
@@ -46,10 +47,15 @@ export default class Skills extends React.Component {
             <em><h4>Game Design</h4> 
             A truly worthwhile course. This course introduced me an exciting field in the CS that I always dreamed about as a child. In this course we discussed important game design concepts and also underwent our own design process, which ultimately resulted in the creation of my own game!  </em>
           </li>
+          <li>
+            <em><h4>Operating Systems</h4> 
+            This class taught me the importance of low level code and how operating systems work. </em>
+          </li>
         </ul>
       <img src={skillsPic} width="2500" height="2500" />
     </div>
   </div>
+  </section>
   );
   }
 }

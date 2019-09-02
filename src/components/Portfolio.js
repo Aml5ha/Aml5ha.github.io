@@ -8,6 +8,7 @@ import RaceCar from "../assets/images/portfolio/autocar.gif";
 import SortNum from "../assets/images/portfolio/icon_math_1.gif";
 import Instagram from "../assets/images/portfolio/unfollow2.gif";
 import Fortune from "../assets/images/portfolio/top100.gif";
+import Thesis from "../assets/images/portfolio/Thesis1.gif";
 
 
 const Portfolio = () => (
@@ -93,7 +94,7 @@ const Portfolio = () => (
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Twitter: Unfollow List</h5>
-                      <p>Generate a file with the names of twitter handles that don't follow you back</p>
+                      <p>Generates a list of twitter users that don't follow you back</p>
                     </div>
                   </div>
                   <div className="link-icon">
@@ -110,7 +111,7 @@ const Portfolio = () => (
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Instagram: Unfollow List</h5>
-                      <p>Photography</p>
+                      <p>Generates a list of people who don't follow you back on Instagram</p>
                     </div>
                   </div>
                   <div className="link-icon">
@@ -127,7 +128,7 @@ const Portfolio = () => (
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Fortune Top 100 Places to Work</h5>
-                          <p>Photography</p>
+                          <p>Generates a list of the top 100 places to work</p>
                         </div>
                       </div>
                       <div className="link-icon">
@@ -138,7 +139,26 @@ const Portfolio = () => (
                 </div>         
 
 
-         
+         <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="Senior-Capstone-and-Thesis" title="">
+                      <img alt="" src={Thesis} />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>Senior Capstone and Thesis:</h5>
+                          <p> A comprehensive report about my year long CS research</p>
+                        </div>
+                      </div>
+                      <div className="link-icon">
+                        <FaPlus />
+                      </div>
+                    </a>
+                  </div>
+                </div>         
+
+
+
+
 
         </div>
       </div>
