@@ -25,8 +25,8 @@ const Navigation = () => (
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="Aml5ha.github.io/#testimonials">
-          Testimonials
+        <a className="smoothscroll" href="Aml5ha.github.io/#quotes">
+          Quotes
         </a>
       </li>
       <li>

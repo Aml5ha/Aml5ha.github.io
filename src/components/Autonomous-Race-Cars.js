@@ -15,6 +15,7 @@ const Portfolio = () => (
         While learning about the principles of perception, planning, and control I had the opportunity to learn and use robot operating system (ROS),
         integrate various sensors (IMU, Cameras, LIDAR) on an embedded computer, and implement algorithms for localization, mapping, path planning, and control. 
           <br/> <center> Check out our team's blog <a target = "_blank" href="https://anarvekar.github.io/index.html"> {" "} here</a>! </center>
+          <center> Check out an article my team was featured on <a target = "_blank" href="https://news.virginia.edu/content/racing-students-unique-course-put-self-driving-cars-final-test"> {" "} here</a>! </center>
         </p>
 
         <center> <b> A picture of me with the car after succesfully programming the lidar. </b></center>

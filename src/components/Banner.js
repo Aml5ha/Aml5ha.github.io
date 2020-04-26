@@ -6,7 +6,7 @@ const Banner = () => (
     <div className="banner-text">
       <h1 className="responsive-headline">I'm Arman Lokhandwala.</h1>
       <h3>
-        I am a 4th year student studying <span>Computer Science</span> at the <span>University of Virginia</span>.
+        I am currently an Associate <span>Software Engineer</span> at <span>Capital One</span> based in Northern Virginia.
         </h3>
       <h3>
         <a className="smoothscroll" href="#about">

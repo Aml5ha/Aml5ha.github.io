@@ -5,32 +5,32 @@ const Navigation = () => (
     <a className="mobile-btn" href="#nav-wrap" />
     <ul id="nav" className="nav">
       <li className="current">
-        <a className="smoothscroll" href="Aml5ha.github.io">
+        <a className="smoothscroll" href="javascript:history.back()">
           Home
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="Aml5ha.github.io/#about">
+        <a className="smoothscroll" href="javascript:history.back()">
           About
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="Aml5ha.github.io/#resume">
+        <a className="smoothscroll" href="javascript:history.back()">
           Education
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="Aml5ha.github.io/#portfolio">
+        <a className="smoothscroll" href="javascript:history.back()">
           Projects
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="Aml5ha.github.io/#testimonials">
-          Testimonials
+        <a className="smoothscroll" href="javascript:history.back()">
+          Quotes
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="Aml5ha.github.io/#footer">
+        <a className="smoothscroll" href="javascript:history.back()">
           Footer
         </a>
       </li>

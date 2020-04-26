@@ -7,16 +7,21 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Resume from "../components/Resume";
 import Portfolio from "../components/Portfolio";
-import Testimonials from "../components/Testimonials";
+import Quotes from "../components/Quotes";
 import Footer from "../components/Footer";
+import Work from "../components/Work";
+import Skills from "../components/Skills";
+
 
 const IndexPage = () => (
   <div>
     <Header />
     <About />
     <Resume />
+    <Work />
+    <Skills/>
     <Portfolio />
-    <Testimonials />
+    <Quotes />
     <Footer />
   </div>
 );

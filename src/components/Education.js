@@ -8,19 +8,22 @@ const Education = () => (
       </h1>
     </div>
 
+    
+
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
           <h3>University of Virginia - Charlottesville, VA</h3>
           <p className="info">
-            Pursuing a Bachelors of Science in Computer Science
+            Bachelors of Science in Computer Science
             <span>&bull;</span>
-            <em className="date">Expected Graduation: May 2019</em>
+            <em className="date">August 2015 - May 2019</em>
+
           </p>
           <ul>
-            <li>Dean's List</li> 
-            <li>Teaching Assistant for Digital Logic Design</li> 
-            <li>CS Research</li> 
+            <li>CS Research about Compression Aware Algorithms</li>
+            <li>Graduated with Distinction: 3.74 Major GPA</li> 
+            <li>Teaching Assistant for Digital Logic Design</li>  
           </ul>
         </div>
       </div>

@@ -20,20 +20,21 @@ const Navigation = () => (
         </a>
       </li>
       <li>
+        <a className="smoothscroll" href="#work">
+          Work Experience
+        </a>
+      </li>
+      <li>
         <a className="smoothscroll" href="#portfolio">
           Projects
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="#testimonials">
-          Testimonials
+        <a className="smoothscroll" href="#quotes">
+          Quotes
         </a>
       </li>
-      <li>
-        <a className="smoothscroll" href="#footer">
-          Footer
-        </a>
-      </li>
+      
     </ul>
   </nav>
 );

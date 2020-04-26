@@ -33,6 +33,8 @@ e. Others
       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
+
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -136,6 +138,7 @@ html {
    font-size: 62.5%;
    -webkit-font-smoothing: antialiased;
 }
+
 
 body {
    background: #fff;
@@ -1076,8 +1079,8 @@ ul#nav li.current > a {
 
 #resume {
   background: #fff;
-  padding-top: 90px;
-  padding-bottom: 72px;
+  padding-top: 5%;
+  padding-bottom: 0px;
   overflow: hidden;
 }
 
@@ -1105,17 +1108,23 @@ ul#nav li.current > a {
 
 #resume .header-col {
   padding-top: 9px;
+
 }
 #resume .main-col {
   padding-right: 10%;
 }
 
+/*
 .education,
-.work {
+.work
+{
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
 }
+*/
+
+
 #resume .info {
 
   color: #6e7881;
@@ -1131,6 +1140,142 @@ ul#nav li.current > a {
   margin-top: 6px;
 }
 
+/*---------------------POO_WORK_BELOW_POO-------------*/
+
+#work {
+  background: #ebeeee;
+  padding-top: 5%;
+  padding-bottom: 0px;
+  overflow: hidden;
+}
+
+#work a,
+#work a:visited {
+  color: #11abb0;
+}
+#work a:hover,
+#work a:focus {
+  color: #313131;
+}
+
+#work h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#work h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+#work h3 {
+  font: 25px/30px "opensans-bold", sans-serif;
+}
+
+#work .header-col {
+  padding-top: 9px;
+
+}
+#work .main-col {
+  padding-right: 10%;
+}
+
+/*
+.education,
+.work
+{
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+*/
+
+
+#work .info {
+
+  color: #6e7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+#work .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#work .date {
+
+  margin-top: 6px;
+}
+
+/*----------------POTTY------------------*/
+/* Work above, skills below */
+
+/*----------------POTTY------------------*/
+
+
+#skills {
+  background: #fff;
+  padding-top: 5%;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+#skills a,
+#skills a:visited {
+  color: #11abb0;
+}
+#skills a:hover,
+#skills a:focus {
+  color: #313131;
+}
+
+#skills h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#skills h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+#skills h3 {
+  font: 25px/30px "opensans-bold", sans-serif;
+}
+
+#skills .header-col {
+  padding-top: 9px;
+
+}
+#skills .main-col {
+  padding-right: 10%;
+}
+
+/*
+.education,
+.work
+{
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+*/
+
+#skills .info {
+
+  color: #6e7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+#skills .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#skills .date {
+
+  margin-top: 6px;
+}
+
+/*--------------------PEEPEE_SKILLS_ABOVE--------------------------*/
+
+/*----------------------------------------------*/
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -1655,6 +1800,81 @@ call-to-action .button {
   border: none;
 }
 
+/* ------------------------------------------------------------------
+/* g.1. Quotes
+/* ------------------------------------------------------------------ */
+
+#quotes {
+  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-attachment: fixed;
+
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+#quotes .text-container {
+  padding-top: 96px;
+  padding-bottom: 66px;
+}
+#quotes h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+}
+#quotes h1 span {
+  display: none;
+}
+#quotes .header-col {
+  padding-top: 9px;
+}
+#quotes .header-col h1:before {
+  font-family: "FontAwesome";
+  content: "\f10d";
+  padding-right: 10px;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: left;
+  float: left;
+  color: #fff;
+}
+
+/* Blockquotes */
+#quotes blockquote {
+  margin: 0 0px 30px 0px;
+  padding-left: 0;
+  position: relative;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+}
+#quotes blockquote:before {
+  content: none;
+}
+#quotes blockquote p {
+  font-family: "librebaskerville-italic", serif;
+  padding: 0;
+  font-size: 24px;
+  line-height: 48px;
+  color: #fff;
+}
+#quotes blockquote cite {
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 18px;
+  color: #fff;
+}
+#quotes blockquote cite:before {
+  content: "\2014 \0020";
+}
+#quotes blockquote cite a,
+#quotes blockquote cite a:visited {
+  color: #8b9798;
+  border: none;
+}
+
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
@@ -2086,6 +2306,16 @@ footer .social li:first-child {
     font-size: 22px;
     line-height: 46px;
  }
+ /* Quotes Section
+ ------------------------------------------------------------------- */
+ #quotes .header-col h1:before {
+    font-size: 66px;
+    line-height: 66px;
+ }
+ #quotes blockquote p {
+    font-size: 22px;
+    line-height: 46px;
+ }
 
   /* Call to Action Section
  ------------------------------------------------------------------- */
@@ -2295,6 +2525,30 @@ footer .social li:first-child {
     margin-left: -30px;
  }
 
+ /* Quotes Section
+ ----------------------------------------------------------------------- */
+ #quotes .text-container { text-align: center; }
+ #quotes h1 {
+    font: 16px/24px 'opensans-bold', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+ }
+ #quotes h1 span { display: block; }
+ #quotes .header-col h1:before { content: none; }
+ #quotes blockquote { padding-bottom: 24px; }
+ #quotes blockquote p {
+    font-size: 20px;
+    line-height: 42px;
+ }
+
+ /* Control Nav */
+ .flex-control-nav {
+    text-align: center;
+    margin-left: -30px;
+ }
+
+
 
  /* contact Section
  ----------------------------------------------------------------------- */
@@ -2383,6 +2637,8 @@ footer .social li:first-child {
  /* social links */
  footer .social { font-size: 20px; }
  footer .social li { margin-left: 14px; }
+
+ /* ------------------------------------------------------------------------ */
 
 }
 
