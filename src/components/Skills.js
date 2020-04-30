@@ -1,34 +1,8 @@
 import React from 'react';
-import {Polar} from 'react-chartjs-2';
+import {Polar, Doughnut} from 'react-chartjs-2';
+// import skillsPic from "../Skills.png";
+// <img src={skillsPic} width="2500" height="2500" />
 
-import skillsPic from "../Skills.png";
-
-const data = {
-  datasets: [{
-    data: [
-      11,
-      16,
-      7,
-      3,
-      14
-    ],
-    backgroundColor: [
-      '#FF6384',
-      '#4BC0C0',
-      '#FFCE56',
-      '#E7E9ED',
-      '#36A2EB'
-    ],
-    label: 'My dataset' // for legend
-  }],
-  labels: [
-    'Red',
-    'Green',
-    'Yellow',
-    'Grey',
-    'Blue'
-  ]
-};
 
 
 export default class Skills extends React.Component {
@@ -46,10 +20,14 @@ export default class Skills extends React.Component {
       <p>
         With the help of my college career, two internships, and current job at Capital One, I have aquired various technical skills.
         Though my ability to perform is not limited by the presented skills, the graphic below shows a high level overview of the technical areas I have had exposure to. 
-        See also the most relevant and interesting courses that I have taken. 
+        See also, the most relevant and interesting courses that I have taken. 
       </p>
 
         <ul className="skills">
+          <li>
+            <em><h4>Reinforcement Learning</h4> 
+             Reinforcement learning (RL) introduced me to a new area of computer science which I have never explored before. Through this class, I was able to apply machine learning and RL concepts on our various projects and homeworks.</em>
+          </li>
           <li>
             <em><h4>Algorithms</h4> 
             An essential course as it exposed me to a different persepctive to solving problems.</em>
@@ -79,13 +57,14 @@ export default class Skills extends React.Component {
             This class taught me the importance of low level code and how operating systems work. </em>
           </li>
         </ul>
-      <img src={skillsPic} width="2500" height="2500" />
     </div>
+
   </div>
-  <div>
-        <h2>Polar Example</h2>
-        <Polar data={data} />
-      </div>
+
+
+
+
+
   </section>
   );
   }

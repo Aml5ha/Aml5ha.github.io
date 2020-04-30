@@ -11,7 +11,7 @@ import Quotes from "../components/Quotes";
 import Footer from "../components/Footer";
 import Work from "../components/Work";
 import Skills from "../components/Skills";
-// import Chart from "../components/Chart";
+import Chart from "../components/Chart";
 
 
 
@@ -22,6 +22,7 @@ const IndexPage = () => (
     <Resume />
     <Work />
     <Skills/>
+    <Chart/>
     <Portfolio />
     <Quotes />
     <Footer />
