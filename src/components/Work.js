@@ -29,12 +29,24 @@ const Work = () => (
             <em className="date">August 2019 - Present</em>
           </p>
           <p>
-            I am currently in a rotational program called the technology development program (TDP). As part of this program I have the opportunity to experience different lines of business and development areas. I also am pursuing various courses and certifications such as:   
+            Currently working on the Network Automation team. Since joining the team:
             <br/>
-            - CompTIA Network+ (N10-007) Certification
+            - I have gotten my CompTIA Network+ (N10-007) Certification
             <br/>
-            - AWS Solutions Architect Associate Certification
-
+            - I have helped automate the deployment of one of the company's most critical applications
+            <br/>
+            - Have automated vulnerability scans for all of our team's applications
+            <br/>
+            - Have automated the onboarding of new devices onto our network
+            <br/>
+            - Am helping create a full stack application to better manage network events, such as upgrades, maintenance, testing, etc.
+            <br/>
+            Skills I learned from this experience include but are not limited to: 
+            <ul>  
+            <li>Full Stack Development</li> 
+            <li>Network Engineering</li> 
+            <li>AWS Integration</li> 
+            </ul>
           </p>
         </div>
       </div>

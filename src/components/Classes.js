@@ -3,6 +3,9 @@ import {Polar, Doughnut} from 'react-chartjs-2';
 // import skillsPic from "../Skills.png";
 // <img src={skillsPic} width="2500" height="2500" />
 
+// <p>
+//   Check out some of the coolest and most interesting classes I have taken throughout my schooling experience.
+// </p>
 
 
 export default class Skills extends React.Component {
@@ -13,15 +16,10 @@ export default class Skills extends React.Component {
   <div className="row skill">
     <div className="three columns header-col">
       <h1>
-        <span>Skills</span>
+        <span>Relevant Classes</span>
       </h1>
     </div>
     <div className="nine columns main-col">
-      <p>
-        With the help of my college career, two internships, and current job at Capital One, I have aquired various technical skills.
-        Though my ability to perform is not limited by the presented skills, the graphic below shows a high level overview of the technical areas I have had exposure to. 
-        See also, the most relevant and interesting courses that I have taken. 
-      </p>
 
         <ul className="skills">
           <li>

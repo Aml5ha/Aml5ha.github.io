@@ -26,6 +26,7 @@ var data = {
 		1,
 		4, 
 		1.5,
+		1.5, 
 		1.5,
 		2,
 		5, 
@@ -37,19 +38,20 @@ var data = {
 		1
     ],
     backgroundColor: [
-      'rgba(255, 206, 86, 0.6)', //adobe 
+      'rgba(255, 0, 0, 0.6)', //adobe 
       'rgba(255, 0, 255, 0.6)', //agile
-      'rgba(255,0,255, 0.6)', //asp
-      'rgba(125, 44, 222, 0.6)', //azure
+      'rgba(120,0,183, 0.6)', //asp
+      'rgba(125, 200, 222, 0.6)', //azure
+      'rgba(255, 190, 0, 0.6)', //AWS
       'rgba(180,75,35, 0.6)', //C++
       'rgba(72, 128, 72, 0.6)', //c#
-      'rgba(255,0,0, 0.6)', //db
+		  'rgba(255,80,190, 0.6)', //db
       'rgba(2, 166, 0, 0.6)', //docker			      
-      'rgba(55, 206, 97, 0.6)', //git
+      'rgba(150, 26, 70, 0.6)', //git
       'rgba(0,0,58, 0.6)', //java
       'rgba(255,255,0, 0.6)', //javascript
       'rgba(55, 206, 97, 0.6)', //latex 
-      'rgba(72,0,255, 0.6)', //os Linux
+      'rgba(72,100,255, 0.6)', //os Linux
       'rgba(0,128,255, 0.6)', //python
       'rgba(0,255,0, 0.6)', //x86
       
@@ -62,6 +64,7 @@ var data = {
     'Agile Methodology', //6
     'ASP .Net', //2
     'Azure: Blob Storage + App Hosting', //1
+    'AWS', //6
     'C++', //5
     'C#',//3
     'DB: Postgres, RDS, Mongo', //4
@@ -96,7 +99,8 @@ export default class Skills extends React.Component {
 				3.5,
 				1, 
 				1,
-				4, 
+				4,
+				1.5, 
 				1.5,
 				1.5,
 				2,
@@ -113,6 +117,7 @@ export default class Skills extends React.Component {
 		      'rgba(0, 0, 255, 0.8)', //agile 6
 			  'rgba(0, 255, 255, 0.8)', //.net 2
 		      'rgba(0, 255, 255, 0.8)', //blob storage 2
+		      'rgba(0, 0, 255, 0.8)', //AWS 6
 		      'rgba(0,120,255, 0.8)', //C++ 5
 		      'rgba(0, 200, 255, 0.8)', //c# 3
 		      'rgba(0,155,255, 0.8)', // DB 4
@@ -135,6 +140,7 @@ export default class Skills extends React.Component {
 		    'Agile Methodology', //6
 		    'ASP .Net', //2
 		    'Azure: Blob Storage + App Hosting', //1
+		    'AWS', //6
 		    'C++', //5
 		    'C#',//3
 		    'DB: Postgres, RDS, Mongo', //4
@@ -162,6 +168,7 @@ export default class Skills extends React.Component {
 					4, 
 					1.5,
 					1.5,
+					1.5,
 					2,
 					2,
 					5, 
@@ -173,19 +180,20 @@ export default class Skills extends React.Component {
 					1
 			    ],
 			    backgroundColor: [
-			      'rgba(255, 206, 86, 0.6)', //adobe 
+			      'rgba(255, 0, 0, 0.6)', //adobe 
 			      'rgba(255, 0, 255, 0.6)', //agile
-			      'rgba(255,0,255, 0.6)', //asp
-			      'rgba(125, 44, 222, 0.6)', //azure
+			      'rgba(120,0,183, 0.6)', //asp
+			      'rgba(125, 200, 222, 0.6)', //azure
+			      'rgba(255, 190, 0, 0.6)', //AWS
 			      'rgba(180,75,35, 0.6)', //C++
 			      'rgba(72, 128, 72, 0.6)', //c#
-			      'rgba(255,0,0, 0.6)', //db
+      			  'rgba(255,80,190, 0.6)', //db
 			      'rgba(2, 166, 0, 0.6)', //docker			      
-			      'rgba(55, 206, 97, 0.6)', //git
+			      'rgba(150, 26, 70, 0.6)', //git
 			      'rgba(0,0,58, 0.6)', //java
 			      'rgba(255,255,0, 0.6)', //javascript
 			      'rgba(55, 206, 97, 0.6)', //latex 
-			      'rgba(72,0,255, 0.6)', //os Linux
+			      'rgba(72,100,255, 0.6)', //os Linux
 			      'rgba(0,128,255, 0.6)', //python
 			      'rgba(0,255,0, 0.6)', //x86
 			      
@@ -198,6 +206,7 @@ export default class Skills extends React.Component {
 			    'Agile Methodology', //6
 			    'ASP .Net', //2
 			    'Azure: Blob Storage + App Hosting', //1
+			    'AWS', //6
 			    'C++', //5
 			    'C#',//3
 			    'DB: Postgres, RDS, Mongo', //4
@@ -233,7 +242,11 @@ export default class Skills extends React.Component {
       </h1>
         <p> Measured in Years of Experience </p>
     </div>
-    <p>Check out this graphic I created using ChartJS! Each slice is a different skill and how far it comes out shows how many years of experience I have with it. For clarity sake, this chart is only one piece of the pie, as it does not capture all of the different technologies I've used, but rather just a few.</p>
+    <p>Check out this graphic I created using ChartJS! Each slice is a different skill and how far it comes out shows how many years of experience I have with it. 
+    If you click the button to switch the color scheme, the deeper shades of blue represent my most comfortable skills. This chart is only one piece of the pie, as it does not capture all of the different technologies I've used, but rather just a few.
+    <br/>(Note: Graphic may appear illegible on mobile. Currently working on a fix)
+    </p>
+
     <Polar data={this.state} redraw />
     <br/>
     <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
